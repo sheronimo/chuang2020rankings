@@ -171,7 +171,7 @@ function displayProfile(d) {
 }
 
 function getImageSource(d) {
-    return "pics/" + d.name.replace(/ /g, "") + ".jpg";
+    return "pics/" + d.name.replace(/ /g, "") + ".png";
 }
 
 function getBackground(d) {
