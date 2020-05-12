@@ -20,8 +20,8 @@ var dFirst;
 var colors = {
     "A": "#ff86b9",
     "B": "#ffd638",
-    "C": "#a6a6a4",
-    "F": "gray"
+    "C": "#1cc3ca",
+    "F": "#a6a6a4"
 };
 
 // Set up plot
