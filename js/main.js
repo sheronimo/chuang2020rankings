@@ -6,22 +6,25 @@ var SELECT_WIDTH = 8;
 var NORMAL_OPACITY = 0.1;
 var SELECT_OPACITY = 1;
 var CHART_WIDTH = 500;
-var CUTOFF = 3; // Update cutoff
+var CUTOFF = 12; // Update cutoff
 
 var height = 390;
 var padding = 40;
 var middlePadding = (padding * 2) + 100;
 var width = $(window).width() - middlePadding - CHART_WIDTH - 30;
 
-var episodes = [2, 3, 4];
+var episodes = [1, 1.5, 2, 3, 5, 8, 8.5, 9, 11, 12];
 var totalData;
 var dFirst;
 
 var colors = {
-    "A": "#ff86b9",
-    "B": "#ffd638",
-    "C": "#1cc3ca",
-    "F": "#a6a6a4"
+    "A": "#fb9fcb",
+    "B": "#ff951c",
+    "C": "#fff200",
+    "D": "#00a500",
+    "F": "gray",
+    "?": "#000000",
+    "-": "#000000"
 };
 
 // Set up plot
@@ -37,7 +40,7 @@ var plot = svg.append("g").attr("transform", "translate(" + padding + "," + padd
 setXAxis();
 
 // Get data
-d3.csv("produce101.csv", parseLine, function (err, data) {
+d3.csv("produce48.csv", parseLine, function (err, data) {
     totalData = processData(data);
     plotData(data);
     selectLine(dFirst, "#line1");
@@ -141,12 +144,12 @@ function showChart(key, asc) {
         })
         .html(function(d) {
             var letter = '<div class="letter" style="background: ' + getBackground(d) + '; color: ' + getTextColor(d) + '">' + d.letter + '</div>';
-			var letter2 = '<div class="letter2" style="background: ' + getBackground2(d) + '; color: ' + getTextColor2(d) + '">' + d.letter2 + '</div>';
+            var letter2 = '<div class="letter2" style="background: ' + getBackground2(d) + '; color: ' + getTextColor2(d) + '">' + d.letter2 + '</div>';
             var rank = d.latestRank;
             if (rank == 1000) {
                 rank = "-";
             }
-            return td(rank, "smWidth") + td(d.name, "nameWidth") + td(d.company, "companyWidth") + td(letter, "smWidth") + td(displayRankChange(d), "rankWidth");
+            return td(rank, "smWidth") + td(d.name, "nameWidth") + td(d.company, "companyWidth") + td(letter, "smWidth") + td(letter2, "smWidth") + td(displayRankChange(d), "rankWidth");
         })
         .on("mouseover", function(d) {
             selectLine(d, "#line" + d.latestRank);
@@ -167,7 +170,7 @@ function displayProfile(d) {
         .text(d.letter)
         .css("background", getBackground(d))
         .css("color", getTextColor(d));
-	$("#infoLetter2")
+    $("#infoLetter2")
         .text(d.letter2)
         .css("background", getBackground2(d))
         .css("color", getTextColor2(d));
@@ -176,11 +179,15 @@ function displayProfile(d) {
 }
 
 function getImageSource(d) {
-    return "pics/" + d.name.replace(/ /g, "") + ".png";
+    return "pics/" + d.name.replace(/ /g, "") + ".jpg";
 }
 
 function getBackground(d) {
     return colors[d.letter];
+}
+
+function getBackground2(d) {
+    return colors[d.letter2];
 }
 
 function resetLines() {
@@ -314,15 +321,14 @@ function displayRankChange(d) {
 // Returns the change for current contestants, or shows elimination
 function getRankInfo(d) {
     if (d.specialNote != "") {
-        return d.specialNote;
-    }
-    if (d.ranking.length == 0) {
-        return "Withdrew from show";
+        return "Withdrew";
     }
     if (d.isEliminated) {
-        return "Eliminated in Episode " + episodes[d.ranking.length - 1];
+        //return "Eliminated in Episode " + episodes[d.ranking.length - 1];
+        return;
     }
-    return "Wanna One Member, Rank " + d.currentRank + " " + displayRankChange(d);
+    return d.currentRank + " " + displayRankChange(d);
+    //return "Wanna One Member, Rank " + d.currentRank + " " + displayRankChange(d);
 }
 
 function updateNotes(d) {
@@ -370,7 +376,8 @@ function parseLine(row) {
     var r = {};
     r.name = row.Name;
     r.company = row.Company;
-    r.letter = row["Re-Evaluation"];
+    r.letter = row["Level Audition"];
+     r.letter2 = row["Re-Evaluation"];
     r.specialNote = row.note;
     r.ranking = [];
     episodes.forEach(function(episode, i) {
