@@ -167,6 +167,10 @@ function displayProfile(d) {
         .text(d.letter)
         .css("background", getBackground(d))
         .css("color", getTextColor(d));
+	$("#infoLetter2")
+        .text(d.letter2)
+        .css("background", getBackground2(d))
+        .css("color", getTextColor2(d));
     $("#infoCompany").text(d.company);
     $("#infoRank").html(getRankInfo(d));
 }
@@ -341,6 +345,13 @@ function updateNotes(d) {
 // Get color of note text (all white except for yellow rank C)
 function getTextColor(d) {
     if (d.letter == "C") {
+        return "black";
+    }
+    return "white";
+}
+
+function getTextColor2(d) {
+    if (d.letter2 == "C") {
         return "black";
     }
     return "white";
