@@ -6,23 +6,22 @@ var SELECT_WIDTH = 8;
 var NORMAL_OPACITY = 0.1;
 var SELECT_OPACITY = 1;
 var CHART_WIDTH = 500;
-var CUTOFF = 12; // Update cutoff
+var CUTOFF = 101; // Update cutoff
 
 var height = 390;
 var padding = 40;
 var middlePadding = (padding * 2) + 100;
 var width = $(window).width() - middlePadding - CHART_WIDTH - 30;
 
-var episodes = [1, 1.5, 2, 3, 5, 8, 8.5, 9, 11, 12];
+var episodes = [2, 3, 4];
 var totalData;
 var dFirst;
 
 var colors = {
-    "A": "#fb9fcb",
-    "B": "#ff951c",
-    "C": "#fff200",
-    "D": "#00a500",
-    "F": "gray",
+    "A": "#ff86b9",
+    "B": "#ffd638",
+    "C": "#1cc3ca",
+    "F": "#a6a6a4",
     "?": "#000000",
     "-": "#000000"
 };
