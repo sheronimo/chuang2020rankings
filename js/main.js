@@ -18,10 +18,9 @@ var totalData;
 var dFirst;
 
 var colors = {
-    "A": "#fb9fcb",
-    "B": "#ff951c",
-    "C": "#fff200",
-    "D": "#00a500",
+    "A": "#ff86b9",
+    "B": "#ffd638",
+    "C": "#a6a6a4",
     "F": "gray"
 };
 
