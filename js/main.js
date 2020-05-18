@@ -13,7 +13,7 @@ var padding = 40;
 var middlePadding = (padding * 2) + 100;
 var width = $(window).width() - middlePadding - CHART_WIDTH - 30;
 
-var episodes = [2, 3, 4];
+var episodes = [2, 3];
 var totalData;
 var dFirst;
 
@@ -297,11 +297,11 @@ function getCurrentRank(d) {
 
 // Returns the change in rank, or "-" for eliminated contestants
 function getRankChange(d) {
-	/*
+	
     if (d.ranking.length < episodes.length) {
         return "-";
     }
-	*/
+	
     var prevRank = d.ranking[d.ranking.length - 2].rank;
     return prevRank - getCurrentRank(d);
 }
