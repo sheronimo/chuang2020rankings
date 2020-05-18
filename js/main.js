@@ -297,9 +297,11 @@ function getCurrentRank(d) {
 
 // Returns the change in rank, or "-" for eliminated contestants
 function getRankChange(d) {
+	/*
     if (d.ranking.length < episodes.length) {
         return "-";
     }
+	*/
     var prevRank = d.ranking[d.ranking.length - 2].rank;
     return prevRank - getCurrentRank(d);
 }
