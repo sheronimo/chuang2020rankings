@@ -261,7 +261,7 @@ function plotData(data) {
             return pathGenerator(d.ranking);
         })
         .style("stroke", function(d, i) {
-            return getBackground(d);
+            return getBackground2(d);
         })
         .style("stroke-width", NORMAL_WIDTH)
         .on("mouseover", function (d) {
@@ -343,7 +343,7 @@ function updateNotes(d) {
             $("#note" + i)
                 .text(rank)
                 .css("top", scaleY(rank) + OFFSET)
-                .css("background", getBackground(d))
+                .css("background", getBackground2(d))
                 .css("color", getTextColor(d));
         }
     }
@@ -351,14 +351,14 @@ function updateNotes(d) {
 
 // Get color of note text (all white except for yellow rank C)
 function getTextColor(d) {
-    if (d.letter == "C") {
+    if (d.letter == "B") {
         return "black";
     }
     return "white";
 }
 
 function getTextColor2(d) {
-    if (d.letter2 == "C") {
+    if (d.letter2 == "B") {
         return "black";
     }
     return "white";
