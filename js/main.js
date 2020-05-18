@@ -344,12 +344,12 @@ function updateNotes(d) {
                 .text(rank)
                 .css("top", scaleY(rank) + OFFSET)
                 .css("background", getBackground2(d))
-                .css("color", getTextColor(d));
+                .css("color", getTextColor2(d));
         }
     }
 }
 
-// Get color of note text (all white except for yellow rank C)
+// Get color of note text (all white except for yellow rank B)
 function getTextColor(d) {
     if (d.letter == "B") {
         return "black";
