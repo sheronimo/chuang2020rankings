@@ -1,61 +1,61 @@
 Name,Company,Level Audition,Re-Evaluation,note,ep2,ep3,ep4,ep5,ep6,ep7,ep8,ep9,ep10
-Curley Gao,Dream Sound,F,A,,1,1,1,-,-,-,-,-,-
-Chen Zhuoxuan,TH Entertainment,A,C,,2,2,2,-,-,-,-,-,-
-Liu Xiening,Hot Idol,A,C,,3,4,5,-,-,-,-,-,-
-Zheng Naixin,Huaying Entertainment,A,B,,4,3,3,-,-,-,-,-,-
-Zhang Yifan,TF Entertainment,F,C,,5,5,4,-,-,-,-,-,-
-Lin Junyi,Turn East Media,A,A,,6,8,8,-,-,-,-,-,-
-Wang Yijin,Jaywalk Newjoy,F,B,,7,7,7,-,-,-,-,-,-
-Jiang Zhenyu,Gramarie Entertainment,A,A,,8,6,6,-,-,-,-,-,-
-Yao Hui,Joy Pictures,A,F,,9,9,11,-,-,-,-,-,-
-Liu Meng,Jaywalk Newjoy,F,F,,10,13,13,-,-,-,-,-,-
-Ao Xinyi,Jaywalk Newjoy,F,A,,11,15,17,-,-,-,-,-,-
-Zhao Yue,Siba Culture,C,C,,12,10,10,-,-,-,-,-,-
-Su Ruiqi,ETM Academy,B,A,,13,12,12,-,-,-,-,-,-
-Zhang Xinwen,papitube,B,F,,14,16,21,-,-,-,-,-,-
-Xu Yiyang,L.TAO,C,B,,15,11,9,-,-,-,-,-,-
-Gao Zhi,Top One Culture,F,B,,16,22,48,-,-,-,-,-,-
-Xie Anran,Shengyao Music,B,F,,17,18,20,-,-,-,-,-,-
-Sun Zhenni,Siba Culture,C,C,,18,17,19,-,-,-,-,-,-
-Chen Qiannan,Siba Culture,C,C,,19,21,34,-,-,-,-,-,-
-Hua Chengyan,Oneleader Entertainment,F,C,,20,31,37,-,-,-,-,-,-
-Ji Yangliu,Banana Entertainment,C,B,,21,25,33,-,-,-,-,-,-
-Zhu Zhuai,LOVELIVE,C,B,,22,14,14,-,-,-,-,-,-
-Chen Ke,Siba Culture,C,C,,23,20,18,-,-,-,-,-,-
-Hu Jiaxin,TH Entertainment,B,B,,24,19,22,-,-,-,-,-,-
-Ma Yuling,Siba Culture,C,F,,25,35,44,-,-,-,-,-,-
-Ma Sihui,Emperor Entertainment,F,C,,26,28,49,-,-,-,-,-,-
-Lana,Batesmethinks,C,B,,27,29,43,-,-,-,-,-,-
-Liu Nian,AKB48 China,C,C,,28,27,30,-,-,-,-,-,-
-Wang Yiqiao,NewStyle Media,B,F,,29,24,27,-,-,-,-,-,-
-Li Zimeng,SEVENTFIVE,A,B,,30,40,50,-,-,-,-,-,-
-Xu Xiaohan,AIF Entertainment,F,B,,31,34,25,-,-,-,-,-,-
-Li Jiaen,Siba Culture,C,C,,32,33,41,-,-,-,-,-,-
-Li Mengqi,Banana Entertainment,C,C,,33,30,32,-,-,-,-,-,-
-Zeng Xueyao,TH Entertainment,B,A,,34,26,23,-,-,-,-,-,-
-Wang Lina,GONNA STAR,B,F,,35,47,54,-,-,-,-,-,-
-Huang Enru,Siba Culture,C,C,,36,32,46,-,-,-,-,-,-
-Kang Xi,Hot Idol,F,F,,37,39,28,-,-,-,-,-,-
-Zhang Qing,Naofactory,F,C,,38,50,45,-,-,-,-,-,-
-Tian Jingfan,Jaywalk Newjoy,F,C,,39,43,52,-,-,-,-,-,-
+Curley Gao,Dream Sound,F,A,,1,1,1,1,-,-,-,-,-
+Chen Zhuoxuan,TH Entertainment,A,C,,2,2,2,2,-,-,-,-,-
+Liu Xiening,Hot Idol,A,C,,3,4,5,5,-,-,-,-,-
+Zheng Naixin,Huaying Entertainment,A,B,,4,3,3,3,-,-,-,-,-
+Zhang Yifan,TF Entertainment,F,C,,5,5,4,4,-,-,-,-,-
+Lin Junyi,Turn East Media,A,A,,6,8,8,9,-,-,-,-,-
+Wang Yijin,Jaywalk Newjoy,F,B,,7,7,7,7,-,-,-,-,-
+Jiang Zhenyu,Gramarie Entertainment,A,A,,8,6,6,10,-,-,-,-,-
+Yao Hui,Joy Pictures,A,F,,9,9,11,15,-,-,-,-,-
+Liu Meng,Jaywalk Newjoy,F,F,,10,13,13,20,-,-,-,-,-
+Ao Xinyi,Jaywalk Newjoy,F,A,,11,15,17,42,-,-,-,-,-
+Zhao Yue,Siba Culture,C,C,,12,10,10,6,-,-,-,-,-
+Su Ruiqi,ETM Academy,B,A,,13,12,12,11,-,-,-,-,-
+Zhang Xinwen,papitube,B,F,,14,16,21,34,-,-,-,-,-
+Xu Yiyang,L.TAO,C,B,,15,11,9,8,-,-,-,-,-
+Gao Zhi,Top One Culture,F,B,,16,22,48,49,-,-,-,-,-
+Xie Anran,Shengyao Music,B,F,,17,18,20,17,-,-,-,-,-
+Sun Zhenni,Siba Culture,C,C,,18,17,19,25,-,-,-,-,-
+Chen Qiannan,Siba Culture,C,C,,19,21,34,26,-,-,-,-,-
+Hua Chengyan,Oneleader Entertainment,F,C,,20,31,37,41,-,-,-,-,-
+Ji Yangliu,Banana Entertainment,C,B,,21,25,33,38,-,-,-,-,-
+Zhu Zhuai,LOVELIVE,C,B,,22,14,14,22,-,-,-,-,-
+Chen Ke,Siba Culture,C,C,,23,20,18,24,-,-,-,-,-
+Hu Jiaxin,TH Entertainment,B,B,,24,19,22,14,-,-,-,-,-
+Ma Yuling,Siba Culture,C,F,,25,35,44,46,-,-,-,-,-
+Ma Sihui,Emperor Entertainment,F,C,,26,28,49,39,-,-,-,-,-
+Lana,Batesmethinks,C,B,,27,29,43,13,-,-,-,-,-
+Liu Nian,AKB48 China,C,C,,28,27,30,21,-,-,-,-,-
+Wang Yiqiao,NewStyle Media,B,F,,29,24,27,33,-,-,-,-,-
+Li Zimeng,SEVENTFIVE,A,B,,30,40,50,44,-,-,-,-,-
+Xu Xiaohan,AIF Entertainment,F,B,,31,34,25,12,-,-,-,-,-
+Li Jiaen,Siba Culture,C,C,,32,33,41,37,-,-,-,-,-
+Li Mengqi,Banana Entertainment,C,C,,33,30,32,36,-,-,-,-,-
+Zeng Xueyao,TH Entertainment,B,A,,34,26,23,23,-,-,-,-,-
+Wang Lina,GONNA STAR,B,F,,35,47,54,48,-,-,-,-,-
+Huang Enru,Siba Culture,C,C,,36,32,46,32,-,-,-,-,-
+Kang Xi,Hot Idol,F,F,,37,39,28,19,-,-,-,-,-
+Zhang Qing,Naofactory,F,C,,38,50,45,29,-,-,-,-,-
+Tian Jingfan,Jaywalk Newjoy,F,C,,39,43,52,16,-,-,-,-,-
 Chen Xinye,White Media,F,B,,40,55,72,-,-,-,-,-,-
-Bian Ka,Huayi Brothers,F,F,,41,44,31,-,-,-,-,-,-
-Hu Maer,TH Entertainment,B,C,,42,41,38,-,-,-,-,-,-
+Bian Ka,Huayi Brothers,F,F,,41,44,31,54,-,-,-,-,-
+Hu Maer,TH Entertainment,B,C,,42,41,38,27,-,-,-,-,-
 Bi Shaoyan,Lead Culture Media,C,C,,43,61,78,-,-,-,-,-,-
-Zhong Feifei,Eggwood Culture,F,C,,44,49,47,-,-,-,-,-,-
-Liu Yulu,Hot Idol,F,F,,45,45,42,-,-,-,-,-,-
-Miao Jingou,EE-MEDIA,B,B,,46,54,55,-,-,-,-,-,-
-Sun Ruyun,WM Media,B,F,,47,56,57,-,-,-,-,-,-
-Wu Yalu,Jinhe Media,B,C,,48,38,29,-,-,-,-,-,-
-Tu Zhiying,Yuheng Starfield,B,B,,49,62,53,-,-,-,-,-,-
-Cuiwen Meixiu,Jaywalk Newjoy,F,B,,50,48,36,-,-,-,-,-,-
+Zhong Feifei,Eggwood Culture,F,C,,44,49,47,31,-,-,-,-,-
+Liu Yulu,Hot Idol,F,F,,45,45,42,56,-,-,-,-,-
+Miao Jingou,EE-MEDIA,B,B,,46,54,55,45,-,-,-,-,-
+Sun Ruyun,WM Media,B,F,,47,56,57,47,-,-,-,-,-
+Wu Yalu,Jinhe Media,B,C,,48,38,29,28,-,-,-,-,-
+Tu Zhiying,Yuheng Starfield,B,B,,49,62,53,35,-,-,-,-,-
+Cuiwen Meixiu,Jaywalk Newjoy,F,B,,50,48,36,51,-,-,-,-,-
 Chen Roubing,LoveSurvive,F,C,,51,80,85,-,-,-,-,-,-
 Jiang Dan,TH Entertainment,B,F,,52,57,65,-,-,-,-,-,-
 Lin Jiahui,Qigu Culture,F,B,,53,51,61,-,-,-,-,-,-
-Zhu Ling,AKB48 China,C,C,,54,53,51,-,-,-,-,-,-
+Zhu Ling,AKB48 China,C,C,,54,53,51,52,-,-,-,-,-
 Zhang Xinyun,SDT Entertainment,C,B,,55,71,66,-,-,-,-,-,-
 Huang Biyin,Banana Entertainment,C,C,,56,65,74,-,-,-,-,-,-
-Shi Ruiyi,BG Project,C,F,,57,37,39,-,-,-,-,-,-
+Shi Ruiyi,BG Project,C,F,,57,37,39,53,-,-,-,-,-
 Zhang Xinmei,TH Entertainment,B,B,,58,63,62,-,-,-,-,-,-
 Li Chengxi,Individual Trainee,B,C,,59,77,75,-,-,-,-,-,-
 Liu Shiqi,Top One Culture,F,F,,60,84,90,-,-,-,-,-,-
@@ -64,19 +64,19 @@ Li Baoyi,Banana Entertainment,C,B,,62,68,76,-,-,-,-,-,-
 Yuan Jiayi,Unique Entertainment,B,F,,63,69,59,-,-,-,-,-,-
 Shen Xiaoting,TOP CLASS Entertainment,F,B,,64,87,80,-,-,-,-,-,-
 Wu Xiaoning,I.E One Entertainment,F,F,,65,93,93,-,-,-,-,-,-
-Zhong Xin,Hey Hou,F,F,,66,42,15,-,-,-,-,-,-
+Zhong Xin,Hey Hou,F,F,,66,42,15,50,-,-,-,-,-
 Wang Yuduo,AKB48 China,C,F,,67,73,68,-,-,-,-,-,-
 Xie Yingjun,Top One Culture,F,F,,68,89,92,-,-,-,-,-,-
 Ding Shiyu,Huayi Brothers,F,F,,69,64,67,-,-,-,-,-,-
-Yu Ziyu,I.E One Entertainment,F,C,,70,59,35,-,-,-,-,-,-
-Zhang Yazhuo,NOK MEDIA,C,B,,71,36,40,-,-,-,-,-,-
-Feng Wanhe,Jaywalk Newjoy,F,B,,72,46,16,-,-,-,-,-,-
+Yu Ziyu,I.E One Entertainment,F,C,,70,59,35,43,-,-,-,-,-
+Zhang Yazhuo,NOK MEDIA,C,B,,71,36,40,55,-,-,-,-,-
+Feng Wanhe,Jaywalk Newjoy,F,B,,72,46,16,30,-,-,-,-,-
 Wen Jie,Huayi Brothers,F,C,,73,76,69,-,-,-,-,-,-
 Wan Fangzhou,AKB48 China,C,C,,74,58,58,-,-,-,-,-,-
-Yu Yangzi,I.E One Entertainment,F,F,,75,60,24,-,-,-,-,-,-
+Yu Yangzi,I.E One Entertainment,F,F,,75,60,24,40,-,-,-,-,-
 Zeng Shuyan,SDT Entertainment,C,B,,76,74,63,-,-,-,-,-,-
 Li Huiyu,AIF Entertainment,F,F,,77,85,73,-,-,-,-,-,-
-Wang Ke,Assaxin,F,C,,78,23,26,-,-,-,-,-,-
+Wang Ke,Assaxin,F,C,,78,23,26,18,-,-,-,-,-
 Li Jiajie,Huace Pictures,F,B,,79,88,88,-,-,-,-,-,-
 Song Yumiao,AIF Entertainment,F,F,,80,83,87,-,-,-,-,-,-
 Wei Qianni,AIF Entertainment,F,B,,81,86,81,-,-,-,-,-,-
