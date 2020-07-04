@@ -6,14 +6,14 @@ var SELECT_WIDTH = 8;
 var NORMAL_OPACITY = 0.1;
 var SELECT_OPACITY = 1;
 var CHART_WIDTH = 500;
-var CUTOFF = 15; // Update cutoff
+var CUTOFF = 7; // Update cutoff
 
 var height = 390;
 var padding = 40;
 var middlePadding = (padding * 2) + 100;
 var width = $(window).width() - middlePadding - CHART_WIDTH - 30;
 
-var episodes = [2, 3, 4, 5, 6, 7, 8, 9, -5, -4, -3];
+var episodes = [2, 3, 4, 5, 6, 7, 8, 9, -5, -4, -3, 10];
 var totalData;
 var dFirst;
 
